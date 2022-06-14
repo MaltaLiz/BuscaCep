@@ -1,0 +1,47 @@
+#app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+  margin-top: 60px;
+}
+
+#form {
+  display: flex;
+  justify-content: center;
+}
+
+#cep {
+  width: 250px;
+  height: 30px;
+}
+
+#botao {
+  background-color: #2c3e50;
+  color: #fff;
+  width: 100px;
+}
+
+#view {
+  margin-top: 30px; 
+}
+
+#tabela {
+  margin: 0 auto;
+  width: 80%;
+}
+
+#tabela th {
+  background-color: rgb(117, 151, 223);
+  height: 30px;
+}
+
+#tabela td {
+  background-color: rgb(204, 219, 250);
+  color: #2c3e50;
+}
+
+#erro {
+  color: rgb(150, 7, 7);
+}

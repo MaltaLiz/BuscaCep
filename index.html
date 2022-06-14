@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="/src/style.css"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Busca CEP</title>
+  </head>
+  <body>
+    <div id="app">
+      <h1>Busca CEP</h1>
+      <form id="form">
+        <input type="text" id="cep" required placeholder="Digite um cep no formato 00000000">
+        <input type="submit" value="Buscar" id="botao">
+      </form>
+      <div id="view">
+
+      </div>
+    </div>
+    <script type="module" src="/src/main.ts"></script>
+    <script src="https://cdn.jsdelivr.net/npm/cep-promise/dist/cep-promise.min.js"></script>
+  </body>
+</html>
